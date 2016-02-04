@@ -2,13 +2,13 @@
 
 Gulp ready start for tutorials and messing around
 
-1 Install npm 
+Install npm 
 
-2 Go to [nodejs.org](http://www.nodejs.org) and hit download
+Go to [nodejs.org](http://www.nodejs.org) and hit download
 
-3 Gulp has to be installed globally and locally in your project folder
+Gulp has to be installed globally and locally in your project folder
 
-4 `sudo npm install -g gulp`
+`sudo npm install -g gulp`
 
 
 
