@@ -1,0 +1,80 @@
+.site-header {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.top-container {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.slide-content {
+  margin-top: 200px;
+  padding-left: 1rem;
+  p {
+    padding-left: 1rem;
+    color: white;
+  }
+}
+
+.border-left {
+  border-left: 4px solid white;
+}
+
+.no-border {
+  border-left: 0;
+}
+
+nav {
+  display: none;
+}
+
+.hamburger {
+  display: block;
+  background-color: #fff;
+  width: 3.5rem;
+  height: 3.5rem;
+  position: absolute;
+  right: 15%;
+  top: 0%;
+  @media screen and (min-width: 30em) {
+    right: 0;
+  }
+}
+
+.hamburger-icon {
+  display: block;
+  background-color: #000;
+  height: 3px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &:after {
+    content: '';
+    width: 100%;
+    display: block;
+    background-color: #000;
+    height: 3px;
+    position: absolute;
+    top: .75rem;
+  }
+  &:before {
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 3px;
+    position: absolute;
+    top: -.75rem;
+    width: 100%;
+  }
+}

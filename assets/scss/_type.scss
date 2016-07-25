@@ -3,3 +3,85 @@ h1 {
   font-family: $font-family;
   text-align: center;
 }
+
+.grey {
+  color: $grey;
+}
+
+.ttu {
+  text-transform: uppercase;
+}
+
+.center {
+  text-align: center;
+}
+
+.section-heading {
+  border-left: 4px solid;
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-family: $font-family;
+  padding: .4rem 0 .4rem 1rem;
+  letter-spacing: .1rem;
+  margin-bottom: 1rem;
+  @media screen and (min-width: 30em) {
+    margin-bottom: 3rem;
+    font-size: 4rem;
+  }
+  @media screen and (min-width: 40em) {
+    
+
+  }
+}
+
+.section-heading__alt {
+  border-left: 4px solid #000;
+  padding-left: 1rem;
+  h2 {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-family: $font-family;
+    letter-spacing: .1rem;
+    @media screen and (min-width: 1024px) {
+      font-size: 4rem;
+    }
+  }
+  @media screen and (min-width: 30em) {
+    margin-bottom: 4rem;
+  }
+}
+
+.section-heading__white {
+  border-left: 6px solid white;
+  color: white;
+}
+
+.item-heading {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-family: $font-family;
+  margin: 1.5rem 0;
+  letter-spacing: .05rem;
+  @media screen and (min-width: 1024px) {
+    font-size: 1.6rem;
+    padding: 2rem 0;
+  }
+}
+
+.continue-reading {
+  text-decoration: underline;
+  color: $grey;
+}
+
+.footer-heading {
+  font-family: $font-family;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: black;
+  @media screen and (min-width: 30em) {
+    text-align: left;
+  }
+}
