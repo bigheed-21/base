@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  <title>Craig England Starter Code</title>
+  <title>Sculpture Workshop</title>
   <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/lib/slick.css"/>
   <script src="https://use.fontawesome.com/4054a8fbcf.js"></script>
@@ -22,7 +22,15 @@
 </head>
 <body>
 <div class="content">
-
+      <div class="full-screen-search">
+        <div class="row">
+          <div class="columns small-12">
+            <form action="#">
+              <input type="search" value="Search..." placeholder="Search...">
+            </form>
+          </div>
+        </div>
+      </div>
       <header class="site-header">
         <div class="row">
           <div class="top-container cf">
@@ -31,9 +39,9 @@
             </div>
             <nav class="">
               <ul class="menu">
-                <li class="menu-item hide-for-small"><a href="#">Workspaces</a></li>
-                <li class="menu-item hide-for-small"><a href="#">What's on</a></li>
-                <li class="menu-item hide-for-small"><a href="#">Visit Us</a></li>
+                <li class="menu-item"><a href="#">Workspaces</a></li>
+                <li class="menu-item"><a href="#">What's on</a></li>
+                <li class="menu-item"><a href="#"><i class="fa fa-info-circle" aria-hidden="true"></i>Visit Us</a></li>
                 <li class="membership"><a href="#">Membership</a></li>
                 <li class="book-a-course"><a href="#">Book A Course</a></li>
                 <li class="search hide-for-small"><a href="#"><i class="fa fa-search"></i></a></li>
@@ -195,34 +203,42 @@
         <div class="row columns">
           <h2 class="section-heading section_sub-heading">Sculpture Courses</h2>
         </div>
-        <div class="row sculpture-courses cf">
-          <div class="sculpture-course columns small-12 medium-6 large-3">
-            <img src="assets/img/course-1.png" alt="Something">
-            <h2 class="item-heading"><a href="">Introduction to metal work</a></h2>
-            <p class="grey">28 September 2016</p>
-            <p class="grey ttu">10:00am - 1:00pm</p>
-            <a href="#" class="continue-reading">Continue reading</a>
+        <div class="row cf">
+          <div class="columns small-12 medium-6 large-3 sculpture-course ">
+            <div>
+              <img src="assets/img/course-1.png" alt="Something">
+              <h2 class="item-heading"><a href="">Introduction to metal work</a></h2>
+              <p class="grey">28 September 2016</p>
+              <p class="grey ttu">10:00am - 1:00pm</p>
+              <a href="#" class="continue-reading">Continue reading</a>
+            </div>
           </div>
-          <div class="sculpture-course columns small-12 medium-6 large-3">
-            <img src="assets/img/course-2.png" alt="Something">
-            <h2 class="item-heading"><a href="">Visual Remixing</a></h2>
-            <p class="grey">28 September 2016</p>
-            <p class="grey ttu">10:00am - 1:00pm</p>
-            <a href="#" class="continue-reading">Continue reading</a>
+          <div class="columns small-12 medium-6 large-3 sculpture-course ">
+            <div>
+              <img src="assets/img/course-2.png" alt="Something">
+              <h2 class="item-heading"><a href="">Visual Remixing</a></h2>
+              <p class="grey">28 September 2016</p>
+              <p class="grey ttu">10:00am - 1:00pm</p>
+              <a href="#" class="continue-reading">Continue reading</a>
+            </div>
           </div>
-          <div class="sculpture-course columns small-12 medium-6 large-3">
-            <img src="assets/img/course-3.png" alt="Something">
-            <h2 class="item-heading"><a href="">Into the woods</a></h2>
-            <p class="grey">28 September 2016</p>
-            <p class="grey ttu">10:00am - 1:00pm</p>
-            <a href="#" class="continue-reading">Continue reading</a>
+          <div class="columns small-12 medium-6 large-3 sculpture-course ">
+            <div>
+              <img src="assets/img/course-3.png" alt="Something">
+              <h2 class="item-heading"><a href="">Into the woods</a></h2>
+              <p class="grey">28 September 2016</p>
+              <p class="grey ttu">10:00am - 1:00pm</p>
+              <a href="#" class="continue-reading">Continue reading</a>
+            </div>
           </div>
-          <div class="sculpture-course columns small-12 medium-6 large-3">
-            <img src="assets/img/course-4.png" alt="Something">
-            <h2 class="item-heading"><a href="">SatARTday</a></h2>
-            <p class="grey">28 September 2016</p>
-            <p class="grey ttu">10:00am - 1:00pm</p>
-            <a href="#" class="continue-reading">Continue reading</a>
+          <div class="columns small-12 medium-6 large-3 sculpture-course ">
+            <div>
+              <img src="assets/img/course-4.png" alt="Something">
+              <h2 class="item-heading"><a href="">SatARTday</a></h2>
+              <p class="grey">28 September 2016</p>
+              <p class="grey ttu">10:00am - 1:00pm</p>
+              <a href="#" class="continue-reading">Continue reading</a>
+            </div>
           </div>
         </div>
         <div class="row">
@@ -234,19 +250,19 @@
 
       <section class="become-a-member cf">
 
-            <div class="columns small-12 medium-6 right member-image no-padding" data-mh="member">
-              <img src="assets/img/member.png" alt="Something">
-            </div>
 
-            <div class="member-content columns small-12 medium-6" data-mh="member">
-              <div class="row">
+            <div class="columns small-12 medium-6 right no-padding">
+              <img src="assets/img/member.png" alt="Something"  data-mh="members" />
+            </div>
+          <div class="row">
+            <div class="member-content columns small-12 medium-6" data-mh="members">
                 <div class="member-info">
                   <h2 class="section-heading section_sub-heading section-heading__white">Become a member</h2>
                   <p>Artists can benefit from access to Edinburgh Sculpture Workshop's specialist facilities and internation networks.</p>
                   <a href="#" class="button tertiary-button">Apply now</a>
                 </div>
-              </div>
             </div>
+          </div>
 
       </section>
 

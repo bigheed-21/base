@@ -153,9 +153,14 @@
     background-color: rgb(200, 24, 209);
 }
 
+.artist-slide-container .slick-slide {
+    height: auto;
+}
+
+
 .artist-slide-container .slick-dots {
     position: absolute;
-    bottom: 70%;
+    bottom: 75%;
     left: 50%;
     transform: translateX(-50%);
 }

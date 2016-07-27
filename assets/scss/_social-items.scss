@@ -79,7 +79,7 @@
     font-size:35px;
     text-align:center;
     margin-right:20px;
-    padding: 1rem 0;
+    padding: 1.5rem 0;
 }
 .social li a i:hover {
     background:#bfc4be;
@@ -87,7 +87,7 @@
 
 @media only screen and (min-width: 40.063em) {
     .social li a i {
-        padding: 4rem 0;
+        padding: 2rem 0;
         font-size: 60px
     }
 }
@@ -113,6 +113,6 @@
   color: black;
   font-size: 2.4rem !important;
   @media screen and (min-width: 1024px) {
-    font-size: 10rem !important;
+    font-size: 7rem !important;
   }
 }

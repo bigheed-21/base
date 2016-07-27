@@ -3,8 +3,8 @@
 $('.slide-container').slick({
   slidesToShow: 1,
   dots: true,
-  prevArrow: '<img src="assets/img/arrow-left-hero.png" class="hero-arrow" />',
-  nextArrow: '<img src="assets/img/arrow-right-hero.png" class="hero-arrow" />'
+  prevArrow: false,
+  nextArrow: false
 });
 
 $('.artist-slide-container').slick({
@@ -15,7 +15,7 @@ $('.artist-slide-container').slick({
 
 });
 
-if ($(window).innerWidth > 1024) {
+if ($(window).innerWidth > 768) {
   $('.member-image').matchHeight();
   $('.member-content').matchHeight();
 }

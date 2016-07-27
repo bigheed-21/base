@@ -19,7 +19,7 @@
 .slide-content {
   margin-top: 200px;
   padding-left: 1rem;
-  width: 350px;
+  width: 320px;
   p {
     padding-left: 1rem;
     color: white;
@@ -30,6 +30,11 @@
       font-size: 1.6rem;
       padding-left: 2.5rem;
     }
+  }
+  @media screen and (min-width: 500px) {
+    margin: 250px auto 0;
+    width: 500px;
+    float: none;
   }
   @media screen and (min-width: 700px) {
     margin: 250px auto 0;
@@ -97,4 +102,9 @@ nav {
   @media screen and (max-width: 1200px) {
     display: inline-block;
   }
+}
+
+i.fa.fa-info-circle {
+  font-size: 16px !important;
+  color: white;
 }
