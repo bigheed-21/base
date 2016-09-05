@@ -29,8 +29,7 @@ html, body {
 body {
   margin: 0;
   background-color: #f3f3f3;
-  font-family: "Ropa Sans", "Helvetica Neue", sans-serif;
-  overflow-x: hidden; }
+  font-family: "Ropa Sans", "Helvetica Neue", sans-serif; }
 
 /* HTML5 display definitions
    ========================================================================== */
@@ -444,8 +443,8 @@ h1 {
   color: white; }
   @media screen and (min-width: 40em) {
     .section-heading__white {
-      font-size: 3rem;
-      margin-bottom: 1rem; } }
+      font-size: 3.5rem;
+      margin-bottom: 3rem; } }
 
 .section-heading-no-margin-bottom {
   margin-bottom: 0; }
@@ -501,7 +500,7 @@ h1 {
 .slide-content {
   margin-top: 200px;
   padding-left: 1rem;
-  width: 320px; }
+  width: 350px; }
   .slide-content p {
     padding-left: 1rem;
     color: white; }
@@ -512,11 +511,6 @@ h1 {
       .slide-content p {
         font-size: 1.6rem;
         padding-left: 2.5rem; } }
-  @media screen and (min-width: 500px) {
-    .slide-content {
-      margin: 250px auto 0;
-      width: 500px;
-      float: none; } }
   @media screen and (min-width: 700px) {
     .slide-content {
       margin: 250px auto 0;
@@ -577,10 +571,6 @@ nav {
     .hamburger {
       display: inline-block; } }
 
-i.fa.fa-info-circle {
-  font-size: 16px !important;
-  color: white; }
-
 .whats-on {
   padding: 4rem 0;
   background-color: #e3e4e2; }
@@ -618,35 +608,32 @@ i.fa.fa-info-circle {
   margin-bottom: 3rem; }
 
 .become-a-member {
-  margin-top: 3rem;
-  background-color: #222; }
-  @media screen and (min-width: 30em) {
-    .become-a-member {
-      margin-top: 6rem; } }
+  padding: 2rem 0;
+  margin-top: 3rem; }
 
-.member-info {
-  padding: 1rem; }
-  @media screen and (min-width: 1000px) {
-    .member-info {
-      position: absolute;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-              transform: translateY(-50%);
-      padding: 0; } }
-  .member-info p {
-    letter-spacing: .1rem; }
-    @media screen and (min-width: 30em) {
-      .member-info p {
-        padding-left: 1.5rem; } }
+@media screen and (min-width: 1000px) {
+  .member-info {
+    position: absolute;
+    top: 50%;
+    left: 57%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
+
+.member-info p {
+  letter-spacing: .1rem; }
+  @media screen and (min-width: 30em) {
+    .member-info p {
+      padding-left: 1.5rem; } }
 
 .member-content {
+  background-color: #222;
   color: white;
   padding-top: 2rem;
   position: relative; }
   @media screen and (min-width: 30em) {
     .member-content {
-      padding: 3.5rem 0 0 0; } }
+      padding: 3.5rem; } }
   .member-content p {
     font-size: 1.2rem;
     max-width: 400px; }
@@ -659,7 +646,7 @@ i.fa.fa-info-circle {
   border: 2px solid #000;
   color: black;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   padding: 1rem 0;
   text-transform: uppercase;
   width: 100%;
@@ -667,9 +654,6 @@ i.fa.fa-info-circle {
   margin: 0 auto;
   background-color: #fff;
   letter-spacing: .1rem; }
-  .button:hover {
-    color: #ff826d;
-    background-color: transparent; }
 
 .secondary-button {
   background-color: #111;
@@ -686,7 +670,7 @@ i.fa.fa-info-circle {
   margin: 3rem auto;
   max-width: 280px;
   border: none; }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 30em) {
     .tertiary-button {
       margin: 5rem 0 0 1.5rem; } }
 
@@ -696,11 +680,10 @@ i.fa.fa-info-circle {
   background-color: rgba(0, 0, 0, 0.7);
   margin: 1rem 0;
   max-width: 350px;
-  font-size: 1.4rem; }
+  font-size: 1.8rem; }
   @media screen and (min-width: 46em) {
     .cta {
-      margin: 3rem 0;
-      font-size: 1.8rem; } }
+      margin: 3rem 0; } }
 
 input[type="text"] {
   border: 2px solid black;
@@ -823,14 +806,14 @@ i.fa.fa-search {
   font-size: 35px;
   text-align: center;
   margin-right: 20px;
-  padding: 1.5rem 0; }
+  padding: 1rem 0; }
 
 .social li a i:hover {
   background: #bfc4be; }
 
 @media only screen and (min-width: 40.063em) {
   .social li a i {
-    padding: 2rem 0;
+    padding: 4rem 0;
     font-size: 60px; } }
 
 .social li.twitter:hover a i {
@@ -853,7 +836,7 @@ i.fa.fa-search {
   font-size: 2.4rem !important; }
   @media screen and (min-width: 1024px) {
     .fa {
-      font-size: 7rem !important; } }
+      font-size: 10rem !important; } }
 
 .first-footer {
   margin-top: 2rem;
@@ -976,19 +959,3 @@ i.fa.fa-search {
   .charity p {
     float: left;
     margin-right: .5rem; } }
-
-.full-screen-search {
-  z-index: 999999;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  display: none; }
-  .full-screen-search form {
-    padding-top: 40px; }
-    .full-screen-search form input {
-      background-color: transparent;
-      border: none;
-      color: white;
-      font-size: 3rem; }
