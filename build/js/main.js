@@ -1,1 +1,1 @@
-"use strict";$(".slide-container").slick({slidesToShow:1,dots:!0,prevArrow:!1,nextArrow:!1}),$(window).innerWidth>1024&&($(".member-image").matchHeight(),$(".member-content").matchHeight());
+"use strict";
