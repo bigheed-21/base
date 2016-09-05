@@ -16,12 +16,8 @@ h1 {
   text-align: center;
 }
 
-.no-margin-bottom {
-  margin-bottom: 0;
-}
-
 .section-heading {
-  border-left: 6px solid;
+  border-left: 4px solid;
   font-size: 3rem;
   text-transform: uppercase;
   font-family: $font-family;
@@ -29,13 +25,12 @@ h1 {
   letter-spacing: .1rem;
   margin-bottom: 1rem;
   @media screen and (min-width: 30em) {
+    margin-bottom: 3rem;
     font-size: 4rem;
-    margin-bottom: 0;
   }
   @media screen and (min-width: 40em) {
-    margin-bottom: 0;
-    font-size: 7rem;
-    margin-left: 1rem;
+    
+
   }
 }
 
@@ -51,43 +46,14 @@ h1 {
       font-size: 4rem;
     }
   }
-  p {
-    
-    @media screen and (min-width: 30em) {
-      font-size: 1.2rem;
-    }
-    @media screen and (min-width: 40em) {
-      font-size: 1.4rem;
-    }
-  }
   @media screen and (min-width: 30em) {
     margin-bottom: 4rem;
   }
 }
 
-.section_sub-heading {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
 .section-heading__white {
   border-left: 6px solid white;
   color: white;
-  @media screen and (min-width: 40em) {
-    font-size: 3.5rem;
-    margin-bottom: 3rem;
-  }
-}
-
-.section-heading-no-margin-bottom {
-  margin-bottom: 0;
-  @media screen and (min-width: 30em) {
-    font-size: 5rem;
-  }
-  @media screen and (min-width: 1200px) {
-    margin-bottom: 0;
-    font-size: 8rem;
-  }
 }
 
 .item-heading {
